@@ -25,7 +25,7 @@ public class TestTask {
 
     @Parameters({"url", "username", "password"})
     @Test
-    private void dragAndDropTest(String url, String username, String password) {
+    private void alertTest(String url, String username, String password) {
         SubmitPage submitPage = new SubmitPage(driver);
         MainPage mainPage = new MainPage(driver);
 
